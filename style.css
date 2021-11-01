@@ -1,0 +1,27 @@
+.message {
+    background-color: rgb(41, 63, 190);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px black;
+}
+
+section {
+    display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.message-send {
+    border-bottom-left-radius: 0;
+    margin-right: 10%;
+    align-self: flex-start;
+}
+
+.message-received {
+    border-bottom-right-radius:0;
+margin-left: 10%;
+align-self: flex-end;
+background-color: chartreuse;
+}
